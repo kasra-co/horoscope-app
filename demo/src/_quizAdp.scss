@@ -1,0 +1,64 @@
+.quizQuestion {
+	position: relative;
+	max-width: 600px;
+	.source {
+		float: right;
+		font-size: .75em;
+		color: #999;
+		padding: 3px;
+	}
+	.credit::after {
+		content: " / "
+	}
+	p {
+		text-align: center;
+		padding: .75rem;
+		margin: 0;
+		// background-color: pink;
+		font-family: 'Droid Arabic Kufi', sans-serif;
+	}
+	.questionTitle {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		text-align: center;
+		margin-top: 10px;
+		color: white;
+		background-color: rgba(0,0,0,.5);
+	}
+	.questionOptions {
+		padding: 0;
+		margin-top: 1rem;
+		list-style-type: none;
+		clear: right;
+		& li {
+			display: inline-block;
+			position: relative;
+			margin-bottom: 1rem;
+			padding: 5px;
+			background-color: #f7f7f7;
+			border: 2px solid #ebebeb;
+			cursor: pointer;
+			&:hover {
+				background-color: #fff195;
+			}
+		}
+		.questionOption {
+			margin-top: 5px;
+			height: 20px;
+			width: 20px;
+		}
+	}
+	li.selected,
+	li.selected:hover {
+		background-color: #bed5ed;
+	}
+	.answered li:not(.selected) {
+		opacity: 0.5;
+		&:hover {
+			opacity: 1;
+		}
+	}
+}
+
