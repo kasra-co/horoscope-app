@@ -1,15 +1,17 @@
 {
-  "name": "fembot",
-  "version": "1.0.0",
-  "description": "Seed project for front end modules.",
+  "name": "quiz",
+  "version": "0.1.0",
+  "description": "Quiz component.",
   "main": "index.js",
-  "repository": "https://bitbucket.org/menapost/fembot",
+  "repository": "https://bitbucket.org/menapost/quiz-user-front-end",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Dan Ross <daniel.ross@kasra.co>",
-  "license": "ISC",
+  "author": "Will Akehurst",
+  "contributors": [
+    "Dan Ross <daniel.ross@kasra.co>"
+  ],
   "dependencies": {
     "lodash": "^3.5.0",
     "react": "^0.13.0",
