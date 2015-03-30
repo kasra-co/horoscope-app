@@ -1,32 +1,32 @@
 var React = require( 'react' );
 
 // Require index.js from the root of the project. That is where our module's interface is specified.
-var QuestionList = require( '../..' ).QuestionList;
+var Quiz = require( '../..' ).Quiz;
 
 var demoQuiz = {
 	results: [{
-		title: 'American',
-		text: 'Have a Bud Light',
+		title: 'نتيجة اجاباتك :شخصية مرنة',
+		text: 'أنت شخصية مرنة، بسيطة، علاقاتك الاجتماعية ممتازة، فأنت صديق الكل والموظف المفضل عند مديرك، أو الطالب المثالي لدى أستاذك.',
 		media: {
-			image: '/images/lightweight.png',
-			credit: 'Budweiser',
-			via: 'http://budweiser.com'
+			image: '/images/result.png',
+			credit: 'Getty Images',
+			via: 'Bob'
 		}
 	}, {
-		title: 'Canadian',
-		text: 'A Colt and two zigzags for you!',
+		title: 'Two',
+		text: 'You are number two.',
 		media: {
-			image: '/images/colt45.jpg',
-			credit: 'Pabst Brewing Co',
-			via: 'http://colt45.com'
+			image: '/images/result.png',
+			credit: 'Getty Images',
+			via: 'Bob'
 		}
 	}, {
-		title: 'True Scotsman',
-		text: 'You dont\'t have to go home, but you can\'t sleep here',
+		title: 'Three',
+		text: 'You are number three.',
 		media: {
-			image: '/images/macallan.gif',
-			credit: 'Macallan Distillery',
-			via: 'themacallan.com'
+			image: '/images/result.png',
+			credit: 'Getty Images',
+			via: 'Bob'
 		}
 	}],
 
@@ -40,12 +40,9 @@ var demoQuiz = {
 			via: 'Bob'
 		},
 		options: [
-			'اسأل: كم دقيقة لا أقضيها أمام شبكة الإنترنت!',
-			'عندما تقابلهم مرة أخرى تقول لهم المعلومة الصحيحة',
-			'اسأل: كم دقيقة لا أقضيها أمام شبكة الإنترنت!',
-			'عندما تقابلهم مرة أخرى تقول لهم المعلومة الصحيحة',
-			'عندما تقابلهم مرة أخرى تقول لهم المعلومة الصحيحة',
-			'أن تجد شخصاً يقودك إلى التصرفات الصحيحة دائماً ولا يمل من هفواتك'
+			'عندما تقابلهم مرة أخرى تقول لهم المعلو',
+			'عندما تقابلهم مرة أخرى تقول لهم المعلو',
+			'أن تجد شخصاً يقودك إلى التصرفات الصحي'
 
 		]
 	}, {
@@ -55,8 +52,9 @@ var demoQuiz = {
 			image: '/images/thief.jpg',
 		},
 		options: [
-			'عندما تقابلهم مرة أخرى تقول لهم المعلومة',
-			'أن تجد شخصاً يقودك إلى التصرفات الصحيحة'
+			'عندما مرة أخرى تقول لهم المعلومة',
+			'عندما مرة أخرى تقول لهم المعلومة',
+			'أن تجد شخصاًإلى التصرفات الصحيحة'
 		]
 	}, {
 		title: 'Question Three?',
@@ -65,8 +63,6 @@ var demoQuiz = {
 			image: '/images/thief.jpg',
 		},
 		options: [
-			'عندما تقابلهم مرة أخرى تقول لهم المعلومة الصحيحة',
-			'أن تجد شخصاً يقودك إلى التصرفات الصحيحة دائماً ولا يمل من هفواتك',
 			'اسأل: كم دقيقة لا أقضيها أمام شبكة الإنترنت!',
 			'عندما تقابلهم مرة أخرى تقول لهم المعلومة الصحيحة',
 			'عندما تقابلهم مرة أخرى تقول لهم المعلومة الصحيحة'
@@ -74,5 +70,8 @@ var demoQuiz = {
 	}],
 };
 
+var quiz = (
+	<Quiz quiz={ demoQuiz } />
+);
 
-React.render( <QuestionList questions={ demoQuiz.questions } />, document.body );
+React.render( quiz, document.body );
