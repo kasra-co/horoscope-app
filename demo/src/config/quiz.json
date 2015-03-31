@@ -44,7 +44,7 @@
 		"prompt": "Question Two?",
 		"color": "00ff00",
 		"media": {
-			"image": "/images/thief.jpg",
+			"image": "/images/thief.jpg"
 		},
 		"answers": [
 			"عندما مرة أخرى تقول لهم المعلومة",
@@ -55,12 +55,12 @@
 		"prompt": "Question Three?",
 		"color": "0000ff",
 		"media": {
-			"image": "/images/thief.jpg",
+			"image": "/images/thief.jpg"
 		},
 		"answers": [
 			"اسأل: كم دقيقة لا أقضيها أمام شبكة الإنترنت!",
 			"عندما تقابلهم مرة أخرى تقول لهم المعلومة الصحيحة",
 			"عندما تقابلهم مرة أخرى تقول لهم المعلومة الصحيحة"
 		]
-	}],
+	}]
 };
