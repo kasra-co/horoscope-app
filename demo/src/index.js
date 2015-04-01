@@ -7,7 +7,7 @@ var demoQuiz = require('./config/quiz');
 
 
 var quiz = (
-	<Quiz quiz={ demoQuiz } />
+	<Quiz shortUrlSlug="F8xPy" siteUrl="http://kasra.co/" quiz={ demoQuiz } />
 );
 
 React.render( quiz, document.body );
