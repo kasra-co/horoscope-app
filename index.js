@@ -6,7 +6,7 @@ It should only export objects from the ./lib directory.
 /* A simple message view. Props:
 - children
 - message: an optional message that will be shown above the child components.  */
-exports.Quiz = require( './lib/quiz' );
+module.exports = require( './lib/quiz' );
 
 /*
 exports.storeName = {} OR exports.stores = {} if there are more than one
