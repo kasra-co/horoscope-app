@@ -94,7 +94,7 @@
 			margin-top: 0;
 		}
 	}
-	button {
+	a {
 		display: inline-block;
 		height: 30px;
 		width: 100px;
@@ -110,8 +110,6 @@
 	}
 	.facebookQuizShare {
 		margin: 0 15px 10px 10px;
-	}
-	.twitterQuizShare a {
-		color: white;
+		cursor: pointer;
 	}
 }
