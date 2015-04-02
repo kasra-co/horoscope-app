@@ -1,6 +1,6 @@
 {
   "name": "quiz",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Quiz component.",
   "main": "index.js",
   "repository": "https://bitbucket.org/menapost/quiz-user-front-end",
