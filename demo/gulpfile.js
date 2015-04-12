@@ -41,7 +41,7 @@ gulp.task( 'config', function() {
 });
 
 gulp.task( 'sass', function() {
-	return sass( '../style/index.scss' )
+	return sass( 'src/index.scss' )
 	.on('error', function (err){
 		console.error('Error', err.message);
 	})
