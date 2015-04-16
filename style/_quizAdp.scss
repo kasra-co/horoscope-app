@@ -3,6 +3,9 @@
 	margin: 0 auto;
 	direction: rtl;
 }
+#quiz.completed .questionAnswers li {
+	cursor: not-allowed;
+}
 #questionList {
 	white-space: nowrap;
 }
