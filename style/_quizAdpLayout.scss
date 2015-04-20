@@ -51,3 +51,8 @@
 .oneUp {
 	width: 100%;
 }
+@media (min-width: 1700px) {
+	.fb_dialog {
+		left: 25% !important;
+	}
+}
