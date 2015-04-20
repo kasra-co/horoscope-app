@@ -7,11 +7,12 @@
 			margin: 4px;
 		}
 	}
-	.threeUp p,
+	.twoUp p,
 	.oneUp p {
 		height: 100px;
 	}
-	.mobileStack li.threeUp {
+	.mobileStack li.threeUp,
+	.mobileStack li.twoUp {
 		width: 100%;
 		margin-left: 0;
 		margin-right: 0;
