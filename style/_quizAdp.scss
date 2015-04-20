@@ -4,9 +4,6 @@
 	direction: rtl;
 	padding-top: 2rem;
 }
-#quiz.completed .questionAnswers li {
-	cursor: not-allowed;
-}
 #questionList {
 	white-space: nowrap;
 }
@@ -67,6 +64,15 @@
 		&:hover {
 			opacity: 1;
 		}
+	}
+}
+#quiz.completed .questionAnswers li {
+	cursor: not-allowed;
+}
+.completed .answered li:not(.selected) {
+	&:hover {
+		background-color: #f7f7f7;
+		opacity: 0.5;
 	}
 }
 .source {
