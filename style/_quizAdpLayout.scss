@@ -16,6 +16,10 @@
 		margin-left: 0;
 		margin-right: 0;
 	}
+	.article-detail-container {
+		max-width: 100% !important; /* override styling conflict. remove for 2.0. */
+		margin-left: 0;
+	}
 }
 @media (max-width: 600px){
 	.questionAnswers p {

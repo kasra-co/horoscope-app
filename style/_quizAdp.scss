@@ -2,6 +2,7 @@
 	max-width: 600px;
 	margin: 0 auto;
 	direction: rtl;
+	padding-top: 2rem;
 }
 #quiz.completed .questionAnswers li {
 	cursor: not-allowed;
@@ -12,10 +13,10 @@
 .quizQuestion {
 	position: relative;
 	p {
-		color: white;
+		color: white !important; /* override styling conflict. remove for 2.0. */
 		text-align: center;
 		padding: .75rem;
-		margin: 5px!important; /* override styling conflict. remove for 2.0. */
+		margin: 5px !important; /* override styling conflict. remove for 2.0. */
 		font-family: 'Droid Arabic Kufi', sans-serif;
 		white-space: normal;
 	}
