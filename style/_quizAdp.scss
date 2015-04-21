@@ -3,6 +3,9 @@
 	margin: 0 auto;
 	direction: rtl;
 	padding-top: 2rem;
+	.quizQuestion p {
+		font-family: 'Droid Arabic Kufi', sans-serif !important;
+	}
 }
 .quizQuestion {
 	position: relative;
@@ -11,7 +14,6 @@
 		text-align: center;
 		padding: .75rem;
 		margin: 5px !important; /* override styling conflict. remove for 2.0. */
-		font-family: 'Droid Arabic Kufi', sans-serif;
 		white-space: normal;
 	}
 	.questionTitle {
