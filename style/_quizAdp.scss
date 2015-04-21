@@ -99,6 +99,7 @@
 	.resultImage {
 		float: right;
 		margin-left: 1rem;
+		max-height: 180px;
 	}
 	.source,
 	.shareResult {
@@ -132,5 +133,14 @@
 	.facebookQuizShare {
 		margin: 0 5px 10px 10px;
 		cursor: pointer;
+	}
+}
+@media (max-width: 480px) {
+	.resultTitle {
+		margin: 0 auto;
+	}
+	p.resultText {
+		margin-top: 0;
+		clear: both;
 	}
 }
