@@ -80,13 +80,13 @@
 	color: #999;
 	padding: 3px;
 	position: relative;
-	top: -20px;
+	top: -25px;
 	left: -5px;
 }
 #quizResult {
 	border: 2px solid #ebebeb;
 	*:not(span) {
-		padding: 5px;
+		padding: 5px 5px 0 5px;
 	}
 	.quizTitle {
 		font-size: 1em;
