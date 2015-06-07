@@ -10,6 +10,16 @@
 		font-family: 'Droid Arabic Kufi', sans-serif !important;
 	}
 }
+#quiz.horoscopeQuiz {
+	.questionAnswers {
+		margin-top: .5rem;
+	}
+}
+.quizQuestion.colors {
+	.threeUp:nth-of-type(7) p {
+		border: 2px solid #ebebeb;
+	}
+}
 .quizQuestion {
 	position: relative;
 	p {
@@ -33,7 +43,6 @@
 	}
 	.questionAnswers {
 		padding: 0;
-		margin-top: 1rem;
 		list-style-type: none;
 		clear: right;
 		& li {
