@@ -1,0 +1,41 @@
+ [
+	{
+		"image" : "/images/capricorn.png",
+		"credit" : ""
+	}, {
+		"image" : "/images/aquarius.png",
+		"credit" : ""
+	}, {
+		"image" : "/images/pisces.png",
+		"credit" : ""
+	}, {
+		"image" : "/images/aries.png",
+		"credit" : ""
+	}, {
+		"image" : "/images/taurus.png",
+		"credit" : ""
+	}, {
+		"image" : "/images/gemini.png",
+		"credit" : ""
+	}, {
+		"image" : "/images/cancer.png",
+		"credit" : ""
+	}, {
+		"image" : "/images/leo.png",
+		"credit" : ""
+	}, {
+		"image" : "/images/virgo.png",
+		"credit" : ""
+	}, {
+		"image" : "/images/libra.png",
+		"credit" : ""
+	}, {
+		"image" : "/images/scorpio.png",
+		"credit" : ""
+	}, {
+		"image" : "/images/sagittarius.png",
+		"credit" : ""
+	}
+
+]
+

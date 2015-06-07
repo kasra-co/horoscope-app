@@ -44,6 +44,10 @@
 			&:hover {
 				background-color: #fff195;
 			}
+			img {
+				width: calc(100% - 6px);
+				margin: 3px;
+			}
 		}
 		.questionAnswer {
 			margin: 10px 6px 8px 0;

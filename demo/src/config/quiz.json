@@ -30,47 +30,54 @@
 
 
 	"questions": [{
-		"prompt": "Question One?",
-		"color": "ff0000",
+		"prompt": "هل أنت ذكر ام أنثى؟",
 		"media": {
-			"image": "/images/thief.jpg",
-			"title": "Image Test Title",
-			"altText": "Test image alternate text",
-			"caption": "Test Credit"
+			"image": "/images/gender-question.jpg",
+			"title": "",
+			"altText": ""
 		},
 		"answers": [
-			"عندما تقابلهم مرة أخرى تقول لهم المعلو",
-			"عندما تقابلهم مرة أخرى تقول لهم المعلو",
-			"أن تجد شخصاً يقودك إلى التصرفات الصحي"
-
+			"/images/male.png",
+			"/images/female.png"
 		]
 	}, {
-		"prompt": "Question Two?",
-		"color": "00ff00",
+		"prompt": "ما هو برجك؟",
 		"media": {
-			"image": "/images/thief.jpg",
-			"title": "Image Test Title",
-			"altText": "Test image alternate text",
-			"caption": "Test Credit"
+			"image": "/images/horoscope-question.jpg",
+			"title": "",
+			"altText": ""
 		},
 		"answers": [
-			"عندما مرة أخرى تقول لهم المعلومة",
-			"عندما مرة أخرى تقول لهم المعلومة",
-			"أن تجد شخصاًإلى التصرفات الصحيحة"
+			"/images/capricorn.png",
+			"/images/aquarius.png",
+			"/images/pisces.png",
+			"/images/aries.png",
+			"/images/taurus.png",
+			"/images/gemini.png",
+			"/images/cancer.png",
+			"/images/leo.png",
+			"/images/virgo.png",
+			"/images/libra.png",
+			"/images/scorpio.png",
+			"/images/sagittarius.png"
 		]
 	}, {
-		"prompt": "Question Three?",
-		"color": "0000ff",
+		"prompt": "ما هو لون الملابس التي ترتديها؟",
 		"media": {
-			"image": "/images/thief.jpg",
-			"title": "Image Test Title",
-			"altText": "Test image alternate text",
-			"caption": "Test Credit"
+			"image": "/images/colors-question.jpg",
+			"title": "",
+			"altText": ""
 		},
 		"answers": [
-			"اسأل: كم دقيقة لا أقضيها أمام شبكة الإنترنت!",
-			"عندما تقابلهم مرة أخرى تقول لهم المعلومة الصحيحة",
-			"عندما تقابلهم مرة أخرى تقول لهم المعلومة الصحيحة"
+			"fd625f", //red
+			"ffe075", //yellow
+			"39b8fd", //blue
+			"1fb5b5", //green
+			"974193", //violet
+			"fa9050", //orange
+			"FFFFFF", //white
+			"000000", //black
+			"3D3D3D"  //grey
 		]
 	}]
 };
