@@ -3,6 +3,9 @@
 	margin: 0 auto;
 	direction: rtl;
 	padding-top: 2rem;
+	.questionImage {
+		max-width: 100%;
+	}
 	.quizQuestion p {
 		font-family: 'Droid Arabic Kufi', sans-serif !important;
 	}
