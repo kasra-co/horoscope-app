@@ -6,6 +6,9 @@
   "repository": "https://bitbucket.org/menapost/quiz-user-front-end",
   "private": true,
   "scripts": {
+    "prepublish" : "npm run build:dev && npm run build:production",
+    "build:production" : "browserify demo/src/index.js -t babelify -g [uglifyify -c -m]>horoscope.min.js && du -h horoscope.min.js",
+    "build:dev" : "browserify demo/src/index.js --debug -t babelify -g [uglifyify -c -m]>horoscope.dev.js && du -h horoscope.dev.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Will Akehurst",
@@ -18,7 +21,8 @@
     "reflux": "^0.2.7"
   },
   "devDependencies": {
-    "browserify": "^9.0.3",
+    "babelify": "^6.1.2",
+    "browserify": "^10.2.4",
     "esprima-fb": "^13001.1001.0-dev-harmony-fb",
     "gulp": "^3.8.11",
     "gulp-ruby-sass": "^1.0.0-alpha.3",
@@ -27,6 +31,7 @@
     "gulp-util": "^3.0.4",
     "lodash": "^3.5.0",
     "reactify": "^1.1.0",
+    "uglifyify": "^3.0.1",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^2.4.0"
