@@ -7,7 +7,7 @@ var demoQuiz = require('./config/quiz');
 
 
 var quiz = (
-	<Quiz shortUrlSlug="F8xPy" siteUrl="http://kasra.co/" quiz={ demoQuiz } quizTitle="test quiz title" />
+	<Quiz shortUrl={window.context.shortUrl} siteUrl={window.context.siteUrl} quiz={ demoQuiz } quizTitle={window.context.title} />
 );
 
-React.render( quiz, document.body );
+React.render( quiz, document.getElementById( "horoscopeContainer" ));
