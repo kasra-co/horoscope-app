@@ -1,9 +1,9 @@
 {
-  "name": "quiz",
+  "name": "horoscopeQuiz",
   "version": "1.0.0",
-  "description": "Quiz component.",
+  "description": "Horoscope quiz component.",
   "main": "index.js",
-  "repository": "https://bitbucket.org/menapost/quiz-user-front-end",
+  "repository": "https://bitbucket.org/menapost/horoscope-quiz",
   "private": true,
   "scripts": {
     "prepublish" : "npm run build:dev && npm run build:production",
