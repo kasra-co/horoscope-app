@@ -45,6 +45,7 @@ gulp.task( 'sass', function() {
 	.on('error', function (err){
 		console.error('Error', err.message);
 	})
+	.pipe( gulp.dest( '../' ))
 	.pipe( gulp.dest( 'dist' ));
 });
 
