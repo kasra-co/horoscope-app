@@ -1,13 +1,13 @@
 var React = require( 'react' );
 
 // Require index.js from the root of the project. That is where our module's interface is specified.
-var Quiz = require( '../..' );
+var HoroscopeQuiz = require( '../..' );
 
-var demoQuiz = require('./config/quiz');
+var horoscope = require('./config/quiz');
 
 
-var quiz = (
-	<Quiz shortUrl={window.context.shortUrl} siteUrl={window.context.siteUrl} quiz={ demoQuiz } quizTitle={window.context.title} />
+var horoscopeQuiz = (
+	<HoroscopeQuiz shortUrl={window.context.shortUrl} siteUrl={window.context.siteUrl} quiz={ horoscope } quizTitle={window.context.title} />
 );
 
-React.render( quiz, document.getElementById( "horoscopeContainer" ));
+React.render( horoscopeQuiz, document.getElementById( "horoscopeContainer" ));
