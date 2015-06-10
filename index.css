@@ -80,7 +80,7 @@
 
 .completed .answered li:not(.selected):hover {
   background-color: #666666 !important;
-  opacity: 0.75 !important; }
+  opacity: 0.5; }
 
 .source {
   float: right;
