@@ -92,8 +92,8 @@
 }
 .completed .answered li:not(.selected) {
 	&:hover {
-		background-color: #666666;
-		opacity: 0.5;
+		background-color: #666666 !important;
+		opacity: 0.75 !important;
 	}
 }
 .source {
@@ -161,11 +161,6 @@
 }
 @media (max-width: 480px) {
 	#quiz.horoscopeQuiz {
-		.resultImage {
-			float: none;
-			display: block;
-			margin: 0 auto;
-		}
 		p.resultText {
 			margin-top: 0;
 			clear: both;
