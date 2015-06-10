@@ -14,6 +14,10 @@
 	.questionAnswers {
 		margin-top: .5rem;
 	}
+	.resultText {
+		width: calc(100% - 212px);
+		float: right;
+	}
 }
 .quizQuestion.colors {
 	.threeUp:nth-of-type(7) p {
@@ -72,12 +76,14 @@
 	}
 	li.selected,
 	li.selected:hover {
-		background-color: #bed5ed;
+		background-color: #bed5ed; /* blue */
 	}
 	.answered li:not(.selected) {
 		opacity: 0.5;
+		background-color: #666666; /* dark grey */
 		&:hover {
 			opacity: 1;
+			background-color: #fff195; /* yellow */
 		}
 	}
 }
@@ -86,7 +92,7 @@
 }
 .completed .answered li:not(.selected) {
 	&:hover {
-		background-color: #f7f7f7;
+		background-color: #666666;
 		opacity: 0.5;
 	}
 }
@@ -154,13 +160,18 @@
 	}
 }
 @media (max-width: 480px) {
-	.resultImage {
-		float: none;
-		display: block;
-		margin: 0 auto;
+	#quiz.horoscopeQuiz {
+		.resultImage {
+			float: none;
+			display: block;
+			margin: 0 auto;
+		}
+		p.resultText {
+			margin-top: 0;
+			clear: both;
+			width: 100%;
+			padding: 0 10px 0 5px;
+		}
 	}
-	p.resultText {
-		margin-top: 0;
-		clear: both;
-	}
+
 }
