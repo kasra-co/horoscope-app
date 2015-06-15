@@ -186,3 +186,19 @@
 @media (min-width: 1700px) {
   .fb_dialog {
     left: 25% !important; } }
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+.clearfix {
+  zoom: 1; }
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }

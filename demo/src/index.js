@@ -7,7 +7,7 @@ var horoscope = require('./config/quiz');
 
 
 var horoscopeQuiz = (
-	<HoroscopeQuiz shortUrl={window.context.shortUrl} siteUrl={window.context.siteUrl} quiz={ horoscope } quizTitle={window.context.title} />
+	<HoroscopeQuiz shortUrl={window.context? window.context.shortUrl : "skdafds"} siteUrl={ window.context? window.context.siteUrl : "http://kasra.co"} quiz={ horoscope } imagePath={ window.context? window.context.pluginUrl + "node_modules/horoscopeQuiz" : "" } />
 );
 
-React.render( horoscopeQuiz, document.getElementById( "horoscopeContainer" ));
+React.render( horoscopeQuiz, document.getElementById( "horoscopeContainer" ) || document.body );
