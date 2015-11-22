@@ -1,64 +1,74 @@
 @media (max-width: 480px) {
-	.threeUp  {
-		width: 32.5%;
-		p {
-			height: 100px;
-			font-size: 0.9em !important;
-			margin: 4px !important;
+	.horoscopeQuiz {
+		.threeUp  {
+			width: 32.5%;
+			p {
+				height: 100px;
+				font-size: 0.9em !important;
+				margin: 4px !important;
+			}
 		}
-	}
-	.twoUp p,
-	.oneUp p {
-		height: 100px;
-	}
-	.mobileStack li.threeUp,
-	.mobileStack li.twoUp {
-		width: 100%;
-		margin-left: 0;
-		margin-right: 0;
-	}
-	.article-detail-container {
-		max-width: 100% !important; /* override styling conflict. remove for 2.0. */
-		margin-left: 0 !important;
+		.twoUp p,
+		.oneUp p {
+			height: 100px;
+		}
+		.mobileStack li.threeUp,
+		.mobileStack li.twoUp {
+			width: 100%;
+			margin-left: 0;
+			margin-right: 0;
+		}
+		.article-detail-container {
+			max-width: 100% !important; /* override styling conflict. remove for 2.0. */
+			margin-left: 0 !important;
+		}
 	}
 }
 @media (max-width: 600px){
-	.questionAnswers p {
-		line-height: 1.2 !important;
+	.horoscopeQuiz {
+		.questionAnswers p {
+			line-height: 1.2 !important;
+		}
 	}
 }
 @media (min-width: 480px) {
-	.questionAnswers p {
-		height: 130px;
+	.horoscopeQuiz {
+		.questionAnswers p {
+			height: 130px;
+		}
+		.threeUp {
+			width: 32.75%;
+		}
 	}
+}
+.horoscopeQuiz {
 	.threeUp {
-		width: 32.75%;
+		&:nth-of-type(2),
+		&:nth-of-type(5),
+		&:nth-of-type(8),
+		&:nth-of-type(11) {
+			margin-left: 3px;
+			margin-right: 3px;
+		}
 	}
-}
-.threeUp {
-	&:nth-of-type(2),
-	&:nth-of-type(5),
-	&:nth-of-type(8),
-	&:nth-of-type(11) {
-		margin-left: 3px;
-		margin-right: 3px;
+	.twoUp {
+		width: 49.4%;
+		&:nth-of-type(1),
+		&:nth-of-type(3),
+		&:nth-of-type(5),
+		&:nth-of-type(7),
+		&:nth-of-type(9) {
+			margin-right: 3px;
+		}
 	}
-}
-.twoUp {
-	width: 49.4%;
-	&:nth-of-type(1),
-	&:nth-of-type(3),
-	&:nth-of-type(5),
-	&:nth-of-type(7),
-	&:nth-of-type(9) {
-		margin-right: 3px;
+	.oneUp {
+		width: 100%;
 	}
-}
-.oneUp {
-	width: 100%;
 }
 @media (min-width: 1700px) {
-	.fb_dialog {
-		left: 25% !important;
+	.horoscopeQuiz {
+		.fb_dialog {
+			left: 25% !important;
+		}
 	}
 }

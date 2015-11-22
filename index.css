@@ -1,25 +1,22 @@
-#quiz {
+.horoscopeQuiz #quiz {
   max-width: 600px;
   margin: 0 auto;
   direction: rtl;
   padding-top: 2rem; }
-  #quiz .questionImage {
+  .horoscopeQuiz #quiz .questionImage {
     max-width: 100%; }
-  #quiz .quizQuestion p {
+  .horoscopeQuiz #quiz .quizQuestion p {
     font-family: 'Droid Arabic Kufi', sans-serif !important; }
-
-#quiz.horoscopeQuiz .questionAnswers {
+.horoscopeQuiz #quiz.horoscopeQuiz .questionAnswers {
   margin-top: .5rem; }
-#quiz.horoscopeQuiz .resultText {
+.horoscopeQuiz #quiz.horoscopeQuiz .resultText {
   width: calc(100% - 212px);
   float: right; }
-
-.quizQuestion.colors .threeUp:nth-of-type(7) p {
+.horoscopeQuiz .quizQuestion.colors .threeUp:nth-of-type(7) p {
   border: 2px solid #ebebeb; }
-
-.quizQuestion {
+.horoscopeQuiz .quizQuestion {
   position: relative; }
-  .quizQuestion p {
+  .horoscopeQuiz .quizQuestion p {
     color: white !important;
     /* override styling conflict. remove for 2.0. */
     text-align: center;
@@ -27,7 +24,7 @@
     margin: 5px !important;
     /* override styling conflict. remove for 2.0. */
     white-space: normal; }
-  .quizQuestion .questionTitle {
+  .horoscopeQuiz .quizQuestion .questionTitle {
     font-size: 1.75rem;
     position: absolute;
     left: 0;
@@ -38,11 +35,11 @@
     margin-top: 10px;
     color: white;
     background-color: rgba(0, 0, 0, 0.5); }
-  .quizQuestion .questionAnswers {
+  .horoscopeQuiz .quizQuestion .questionAnswers {
     padding: 0;
     list-style-type: none;
     clear: right; }
-    .quizQuestion .questionAnswers li {
+    .horoscopeQuiz .quizQuestion .questionAnswers li {
       float: left;
       position: relative;
       margin-bottom: 1rem;
@@ -50,39 +47,36 @@
       border: 2px solid #ebebeb;
       cursor: pointer;
       padding-bottom: 5px; }
-      .quizQuestion .questionAnswers li:hover {
+      .horoscopeQuiz .quizQuestion .questionAnswers li:hover {
         background-color: #fff195; }
-      .quizQuestion .questionAnswers li img {
+      .horoscopeQuiz .quizQuestion .questionAnswers li img {
         width: calc(100% - 6px);
         margin: 3px; }
-    .quizQuestion .questionAnswers .questionAnswer {
+    .horoscopeQuiz .quizQuestion .questionAnswers .questionAnswer {
       margin: 10px 6px 8px 0;
       position: relative;
       left: -5px;
       -ms-transform: scale(1.5);
       -webkit-transform: scale(1.5);
       transform: scale(1.5); }
-  .quizQuestion li.selected,
-  .quizQuestion li.selected:hover {
+  .horoscopeQuiz .quizQuestion li.selected,
+  .horoscopeQuiz .quizQuestion li.selected:hover {
     background-color: #bed5ed;
     /* blue */ }
-  .quizQuestion .answered li:not(.selected) {
+  .horoscopeQuiz .quizQuestion .answered li:not(.selected) {
     opacity: 0.5;
     background-color: #666666;
     /* dark grey */ }
-    .quizQuestion .answered li:not(.selected):hover {
+    .horoscopeQuiz .quizQuestion .answered li:not(.selected):hover {
       opacity: 1;
       background-color: #fff195;
       /* yellow */ }
-
-#quiz.completed .questionAnswers li {
+.horoscopeQuiz #quiz.completed .questionAnswers li {
   cursor: not-allowed; }
-
-.completed .answered li:not(.selected):hover {
+.horoscopeQuiz .completed .answered li:not(.selected):hover {
   background-color: #666666 !important;
   opacity: 0.5; }
-
-.source {
+.horoscopeQuiz .source {
   float: right;
   font-size: .75em;
   color: #999;
@@ -90,35 +84,34 @@
   position: relative;
   top: -25px;
   left: -5px; }
-
-#quizResult {
+.horoscopeQuiz #quizResult {
   border: 2px solid #ebebeb; }
-  #quizResult *:not(span) {
+  .horoscopeQuiz #quizResult *:not(span) {
     padding: 5px 5px 0 5px; }
-  #quizResult .quizTitle {
+  .horoscopeQuiz #quizResult .quizTitle {
     font-size: 1em;
     color: #999;
     font-family: 'Droid Arabic Kufi', sans-serif; }
-  #quizResult .resultTitle {
+  .horoscopeQuiz #quizResult .resultTitle {
     margin: 0;
     font-size: 2rem;
     font-family: 'Droid Arabic Naskh', sans-serif; }
-  #quizResult .resultImage {
+  .horoscopeQuiz #quizResult .resultImage {
     float: right;
     margin-left: 1rem;
     max-height: 180px; }
-  #quizResult .source,
-  #quizResult .shareResult {
+  .horoscopeQuiz #quizResult .source,
+  .horoscopeQuiz #quizResult .shareResult {
     clear: right; }
-  #quizResult .source {
+  .horoscopeQuiz #quizResult .source {
     top: 0;
     left: 0; }
-  #quizResult .shareResult {
+  .horoscopeQuiz #quizResult .shareResult {
     border-top: 2px solid #ebebeb; }
-    #quizResult .shareResult p {
+    .horoscopeQuiz #quizResult .shareResult p {
       margin-top: 0;
       font-family: 'Droid Arabic Kufi', sans-serif; }
-  #quizResult a {
+  .horoscopeQuiz #quizResult a {
     display: inline-block;
     height: 30px;
     width: 100px;
@@ -127,10 +120,10 @@
     border: 0;
     float: right;
     font-size: 1.25rem; }
-    #quizResult a i {
+    .horoscopeQuiz #quizResult a i {
       padding: 0;
       color: white; }
-  #quizResult .facebookQuizShare {
+  .horoscopeQuiz #quizResult .facebookQuizShare {
     margin: 0 5px 10px 10px;
     cursor: pointer; }
 
@@ -141,64 +134,42 @@
     width: 100%;
     padding: 0 10px 0 5px; } }
 @media (max-width: 480px) {
-  .threeUp {
+  .horoscopeQuiz .threeUp {
     width: 32.5%; }
-    .threeUp p {
+    .horoscopeQuiz .threeUp p {
       height: 100px;
       font-size: 0.9em !important;
       margin: 4px !important; }
-
-  .twoUp p,
-  .oneUp p {
+  .horoscopeQuiz .twoUp p,
+  .horoscopeQuiz .oneUp p {
     height: 100px; }
-
-  .mobileStack li.threeUp,
-  .mobileStack li.twoUp {
+  .horoscopeQuiz .mobileStack li.threeUp,
+  .horoscopeQuiz .mobileStack li.twoUp {
     width: 100%;
     margin-left: 0;
     margin-right: 0; }
-
-  .article-detail-container {
+  .horoscopeQuiz .article-detail-container {
     max-width: 100% !important;
     /* override styling conflict. remove for 2.0. */
     margin-left: 0 !important; } }
 @media (max-width: 600px) {
-  .questionAnswers p {
+  .horoscopeQuiz .questionAnswers p {
     line-height: 1.2 !important; } }
 @media (min-width: 480px) {
-  .questionAnswers p {
+  .horoscopeQuiz .questionAnswers p {
     height: 130px; }
-
-  .threeUp {
+  .horoscopeQuiz .threeUp {
     width: 32.75%; } }
-.threeUp:nth-of-type(2), .threeUp:nth-of-type(5), .threeUp:nth-of-type(8), .threeUp:nth-of-type(11) {
+.horoscopeQuiz .threeUp:nth-of-type(2), .horoscopeQuiz .threeUp:nth-of-type(5), .horoscopeQuiz .threeUp:nth-of-type(8), .horoscopeQuiz .threeUp:nth-of-type(11) {
   margin-left: 3px;
   margin-right: 3px; }
-
-.twoUp {
+.horoscopeQuiz .twoUp {
   width: 49.4%; }
-  .twoUp:nth-of-type(1), .twoUp:nth-of-type(3), .twoUp:nth-of-type(5), .twoUp:nth-of-type(7), .twoUp:nth-of-type(9) {
+  .horoscopeQuiz .twoUp:nth-of-type(1), .horoscopeQuiz .twoUp:nth-of-type(3), .horoscopeQuiz .twoUp:nth-of-type(5), .horoscopeQuiz .twoUp:nth-of-type(7), .horoscopeQuiz .twoUp:nth-of-type(9) {
     margin-right: 3px; }
-
-.oneUp {
+.horoscopeQuiz .oneUp {
   width: 100%; }
 
 @media (min-width: 1700px) {
-  .fb_dialog {
+  .horoscopeQuiz .fb_dialog {
     left: 25% !important; } }
-html {
-  box-sizing: border-box; }
-
-*, *:before, *:after {
-  box-sizing: inherit; }
-
-.clearfix {
-  zoom: 1; }
-
-.clearfix:before,
-.clearfix:after {
-  content: "";
-  display: table; }
-
-.clearfix:after {
-  clear: both; }
